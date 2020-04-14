@@ -7,17 +7,38 @@
 </head>
 
 <body>
+    <div class="container">
+        <link href="https://fonts.googleapis.com/css?family=Kelly+Slab&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
   <h1>jQuery and the Weather</h1>
 
-  <div id="location"></div>
-  <div id="conditions"></div>
-  <div id="icon"></div>
-  <div id="temperature"></div>
-  <div id="humidity"></div>
-  <div id="speed"></div>
+  <table align="center">
+    <tr>
+      <td>Location</th>
+      <td> <div id="location"></div></td>
+    </tr>
+    <tr>
+      <td>Conditions</th> 
+      <td> <div id="conditions"></div></td>
+    </tr>
+    <tr colspan="3">
+      <td colspan="3">  <div id="icon"></div></td>
+    </tr>
+    <tr>
+      <td>Temperature</th>
+      <td><div id="temperature"></div></td>
+    </tr>
+    <tr>
+      <td>Humidity</th>
+      <td><div id="humidity"></div></td>
+    </tr>
+    <tr>
+      <td>Wind Speed</th>
+      <td> <div id="speed"></div></td>
+    </tr>
+  </table>
 
   <script>
 
@@ -65,8 +86,8 @@
   });
 
 
-  </script>
-
+    </script>
+    </div>
 </body>
 
 </html>
