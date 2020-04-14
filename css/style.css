@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;  
+    background-color: azure;
+}
+
+body {
+    text-align: center;
+    background-color: skyblue;
+
+}
+
+
+h1 {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin: 0 10px;
+    transition: all .5s;
+    }
+    
+h1:hover {
+    color: navy;
+    transition: all 0.5s;
+    }
+
+
